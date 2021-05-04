@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Assistant:400,700|Playfair+Display:900");
+:root {
+    --clr-light: #DAF7A6;
+    --clr-dark: #FFC300;
+    --clr-primary: #FF5733;
+    --clr-highlight: #C70039 ;
+    --foreground:var(--clr-dark);
+    --background:var(--clr-light);
+    --ff-title: "Playfair Display", serif;
+    --ff-body: "Assistant", sans-serif;
+
+}
+.darkmode{
+    --clr-light: #C70039 ;
+    --clr-dark: #900C3F ;
+    --clr-primary: #581845;
+    --clr-highlight: #FF5733 ;
+    --foreground:var(--clr-light);
+    --background:var(--clr-dark);
+}
+body{
+    color: var(--foreground);
+    background-color: var(--background);
+    font-family: var(--ff-body);
+    text-align: center;
+}
+.main-title{
+    margin-top: 0px;
+    font-size: 10vh;
+    text-align: center;
+    font-family: var(--ff-title);
+}
+#dark-mode-toggle{
+    display: inline;
+    text-align: center;
+    padding:1.35em 5.2em;
+    background-color:var(--clr-primary);
+    color: var(--clr-highlight);
+    border-radius:12px;
+    box-shadow:inset 0 -0.9em 0 -0.4em rgba(0,0,0,0.17);
+    position:relative;
+    font-weight:400;
+    font-size: 1em;
+    margin-left: 75%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dark-mode-toggle:active{
+    top:0.1em;
+}
+#welcome{
+    font-size: 25px;
+    color: var(--clr-highlight)
+}
