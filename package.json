@@ -18,6 +18,7 @@
   "homepage": "https://github.com/miau23/Comp426-FinalProject#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "canvas": "^2.7.0",
     "javascript": "^1.0.0",
     "jquery": "^3.6.0"
   }
