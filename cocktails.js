@@ -1,4 +1,3 @@
-
 let cocktail = [];
 
 export async function getCocktails(){
