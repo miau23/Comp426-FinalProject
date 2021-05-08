@@ -1,4 +1,4 @@
-import axios from 'axios';
+
 let genre;
 
 export async function getGenre(){
