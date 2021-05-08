@@ -9,6 +9,18 @@ window.onload = function(){
     cxt = canvas.getContext('2d');
     document.addEventListener('keydown', keyPressed);
     setInterval(game, 1000/15);
+    let darkMode = localStorage.getItem('darkMode');
+    if(darkMode === 'enabled'){
+        //add class darkmode to the body
+    document.body.classList.add('darkmode');
+    //update dark mode to local storage
+    localStorage.setItem('darkMode','enabled');
+    }
+    else{
+        document.body.classList.remove('darkmode');
+        //update dark mode to local storage
+        localStorage.setItem('darkMode', null);
+    }
 }
 let playerX = 10;
 let playerY = 10;
