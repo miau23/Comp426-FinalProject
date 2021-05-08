@@ -1,4 +1,5 @@
 import axios from 'axios';
+
 let dog;
 
 export async function getDog(){
