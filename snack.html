@@ -7,25 +7,19 @@
         <link rel="stylesheet" href="mainpage.css" />
     </head>
     <body>
-
         <button id ="dark-mode-toggle" class="dark-mode-toggle" >
             Dark Mode
         </button>
-        <h1 class = "main-title">Play a Game</h1>
-        <p id="welcome">a poor man's pacman</p>
-        <div id="root4">
-        <audio controls autoplay loop>
-            <source src="https://vgmsite.com/soundtracks/pac-man-game-sound-effects/knwtmadt/Chomp.mp3" type="audio/mpeg">
-          </audio>
-        <br>
-        <canvas id = "canvas" width ="400" height = "400"></canvas>
-        </div>
-        <div id = "score"></div>
+        <h1 class = "main-title">Make Some Food</h1>
+        <p id = "welcome"> This is my salutation to whoever created stress baking</p>
+        <div id="root8"></div>
+        
         <button id = "back"> <a href = "index.html">Okay Take Me Back </a></button>
 
+        <script src="node_modules/axios/dist/axios.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="darkmode.js"></script>
-        <script type="module" src="game.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script type="module" src="snack.js"></script>
     </body>
 </html>
