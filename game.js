@@ -24,8 +24,8 @@ window.onload = function(){
 }
 let playerX = 10;
 let playerY = 10;
-let gridSize = 25;
-let tileCnt = 25;
+let gridSize = 20;
+let tileCnt = 20;
 let tx = 15;
 let ty = 15;
 let x = 0;
